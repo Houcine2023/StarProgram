@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This ensures padding and border do not affect the overall width of elements */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure the app header adapts on small screens */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem;
+    height: auto;
+  }
+}

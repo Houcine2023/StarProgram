@@ -1,0 +1,44 @@
+.divContainer{
+  display:flex;
+
+}
+
+
+.navContainer{
+  background-color: #772583;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listContainer{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listitems{
+  margin: 0px 15px;
+}
+
+.listitems a{
+  color: white;
+  font-family: system-ui;
+  text-decoration: none;
+}
+.listitems a :active{
+  border-bottom: 2px solid #fff;
+}
+
+.listitems a:hover{
+  color: #ccc;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
